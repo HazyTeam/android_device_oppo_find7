@@ -1,0 +1,17 @@
+$(call inherit-product, device/oppo/find7/full_find7.mk)
+
+# Enhanced NFC
+$(call inherit-product, vendor/hazy/configs/nfc_enhanced.mk)
+
+# Inherit some common stuff.
+$(call inherit-product, vendor/hazy/configs/common.mk)
+$(call inherit-product, vendor/hazy/configs/common_full_phone.mk)
+
+PRODUCT_NAME := hazy_find7
+PRODUCT_DEVICE := find7
+
+PRODUCT_GMS_CLIENTID_BASE := android-oppo
+
+TARGET_CONTINUOUS_SPLASH_ENABLED := true
+
+PRODUCT_BUILD_PROP_OVERRIDES += BUILD_FINGERPRINT=4.4.2/KVT49L/1390465867:user/release-keys PRIVATE_BUILD_DESC="msm8974-user 4.4.2 KVT49L eng.root.20141017.144947 release-keys"

@@ -1,0 +1,2 @@
+add_lunch_combo hazy_find7-userdebug
+add_lunch_combo hazy_find7-eng

@@ -1,1 +1,1 @@
-# android_device_oppo_find7
+Device tree for Find7 by OPPO
